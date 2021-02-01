@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+         box-sizing: border-box;
+}
+
+
+body{
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    height:1.4px ;
+    color: #fff;
+    background-color: #333333;
+    font-size: 18px;
+}
+
+.fa-laptop-code
+{
+    margin-left: 7px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-primary{
+    color: #93cb52;
+}
+
+
+#navbar
+{
+    display: flex;
+    position: fixed ;
+    width: 100%;
+    top: 0;
+    background: rgb(51, 51, 51, 0.7);
+    color: #fff;
+    justify-content: space-between;
+    z-index: 10;
+    padding: 1rem;
+}
+
+#navbar ul
+{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a
+{
+    color: #fff;
+    padding: 0.75rem;
+}
+
+#navbar ul li a:hover{
+    background-color: #93cb52;
+    border-radius: 5px ;
+}
+
+
+#ShowCase
+{
+    margin-top: 70px;
+    background: #333 url(../Image/Header.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;    
+}
+
+.ShowCase-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgb(0, 0,0,0.5);
+}
+
+.l-heading
+{
+    font-size: 60px;
+    margin-bottom: 00.75rem;
+}
+
+.lead
+{
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.btn
+{
+    display: inline-block;
+    color: #eee;
+    background-color: #93cb52;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.btn:hover
+{
+    background: #273615;
+}
+
+
+#what
+{ align-items: center;
+    background-color: #fff;
+    color: #333; 
+    height: 170px;
+}
+
+.text-center
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    padding:25px;
+}
+
+.fa-edit , .fa-plus-square
+{ 
+    background-color: #93cb52;
+    padding: 1.2vh 1.5vh;
+    border-radius: 50px;
+    font-size: 40px;
+    margin-right: 30vh;
+    margin-left: 4vh;
+}
+
+#who
+{   display: flex;
+    background-color: #333333;
+    color: #fff;
+}
+
+.who-img
+{
+    flex: 1;
+    background: #333 url(../Image/elbaz.jpg) no-repeat center center/cover;
+}
+
+.who-text
+{
+    flex: 1;
+    padding: 2rem;
+    line-height: 1.7rem;
+}
+
+.who-text ul
+{
+    list-style: none;
+}
+
+.who-text p
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.who-text h3
+{
+    padding-bottom: 1.5rem;
+}
+
+.who-text li
+{
+    padding: 0.5rem 0rem;
+    border-bottom: 1px dotted #444;
+}
+
+#portfolio
+{ 
+    color: #333;
+    background-color: #fff;
+}
+
+#portfolio p
+{
+    font-weight: bolder;
+    padding: 70px;
+    text-align: center;
+}
+
+#contact
+{   display: flex;
+    background-color: #93cb52;
+    color: #333333;
+}
+
+.contact-img
+{
+    flex: 1;
+    background: #333 url(../Image/gmaps.jpg) no-repeat center center/cover;
+}
+
+.contact-form
+{
+    padding:30px;
+    flex: 1;
+}
+
+.contact-form h2
+{
+    font-size: 2.7rem;
+    padding-bottom: 1rem;
+}
+
+.contact-form p
+{
+    padding-bottom: 1rem;
+}
+
+.contact-form input
+{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 17px;
+}
+
+.contact-form textarea
+{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 17px;
+}
+
+.container2
+{
+    font-size: 13px;
+    padding:20px;
+    text-align: center;
+}
+
+
+
+
